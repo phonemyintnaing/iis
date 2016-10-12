@@ -1,3 +1,9 @@
 #request time out 
 
 iis manager->Sites->advance settings->connection limit
+
+#in webconfig file in seconds
+
+<system.web>
+    <httpRuntime executionTimeout="180" />
+</system.web>
