@@ -1,0 +1,3 @@
+#request time out 
+
+iis manager->Sites->advance settings->connection limit
